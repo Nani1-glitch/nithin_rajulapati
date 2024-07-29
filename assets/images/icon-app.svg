@@ -1,0 +1,47 @@
+<svg width="150" height="150" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .icon {
+      fill: none;
+      stroke: yellow;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+  <!-- Input layer -->
+  <circle cx="10" cy="10" r="3" class="icon"/>
+  <circle cx="10" cy="25" r="3" class="icon"/>
+  <circle cx="10" cy="40" r="3" class="icon"/>
+  <!-- Hidden layer 1 -->
+  <circle cx="30" cy="10" r="3" class="icon"/>
+  <circle cx="30" cy="25" r="3" class="icon"/>
+  <circle cx="30" cy="40" r="3" class="icon"/>
+  <!-- Hidden layer 2 -->
+  <circle cx="50" cy="10" r="3" class="icon"/>
+  <circle cx="50" cy="25" r="3" class="icon"/>
+  <circle cx="50" cy="40" r="3" class="icon"/>
+  <!-- Output layer -->
+  <circle cx="70" cy="25" r="3" class="icon"/>
+  <!-- Connections -->
+  <line x1="10" y1="10" x2="30" y2="10" class="icon"/>
+  <line x1="10" y1="10" x2="30" y2="25" class="icon"/>
+  <line x1="10" y1="10" x2="30" y2="40" class="icon"/>
+  <line x1="10" y1="25" x2="30" y2="10" class="icon"/>
+  <line x1="10" y1="25" x2="30" y2="25" class="icon"/>
+  <line x1="10" y1="25" x2="30" y2="40" class="icon"/>
+  <line x1="10" y1="40" x2="30" y2="10" class="icon"/>
+  <line x1="10" y1="40" x2="30" y2="25" class="icon"/>
+  <line x1="10" y1="40" x2="30" y2="40" class="icon"/>
+  <line x1="30" y1="10" x2="50" y2="10" class="icon"/>
+  <line x1="30" y1="10" x2="50" y2="25" class="icon"/>
+  <line x1="30" y1="10" x2="50" y2="40" class="icon"/>
+  <line x1="30" y1="25" x2="50" y2="10" class="icon"/>
+  <line x1="30" y1="25" x2="50" y2="25" class="icon"/>
+  <line x1="30" y1="25" x2="50" y2="40" class="icon"/>
+  <line x1="30" y1="40" x2="50" y2="10" class="icon"/>
+  <line x1="30" y1="40" x2="50" y2="25" class="icon"/>
+  <line x1="30" y1="40" x2="50" y2="40" class="icon"/>
+  <line x1="50" y1="10" x2="70" y2="25" class="icon"/>
+  <line x1="50" y1="25" x2="70" y2="25" class="icon"/>
+  <line x1="50" y1="40" x2="70" y2="25" class="icon"/>
+</svg>

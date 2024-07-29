@@ -1,0 +1,12 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .icon {
+      fill: yellow;
+      font-size: 72px;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+  <!-- "AI" text -->
+  <text x="25" y="100" class="icon">AI</text>
+</svg>
